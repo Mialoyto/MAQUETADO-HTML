@@ -1,0 +1,37 @@
+
+
+
+h2 b{
+  font-size:larger;
+}
+
+.text{
+  padding-left: 50px;
+}
+
+main{
+display: grid;
+grid-template-areas: "head head "
+                      "img texto" ;
+grid-template-columns: 1fr 1fr;
+}
+.item-1{
+  grid-area:head;
+}
+.item-2{
+  grid-area: img;
+}
+.item-3{
+  grid-area: texto;
+}
+
+.container{
+  display: flex;
+  padding-bottom: 50px;
+
+}
+
+.img-fluid{
+  padding-left: 5px;;
+  object-fit:scale-down;
+}
